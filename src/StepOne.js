@@ -9,6 +9,7 @@ const { string, func, number } = React.PropTypes
 
 const StepOne = React.createClass({
   propTypes: {
+    nameValue: string,
     jobValue: string,
     phoneValue: number,
     emailValue: string,

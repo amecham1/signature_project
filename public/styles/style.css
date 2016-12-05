@@ -81,15 +81,51 @@ input[type=checkbox]:focus {
   height: 38vh;
   background-color: #fff;
   border: 2px #000000 solid;
+  display: inline-block;
 }
 
 .user-info{
-  width: 27vw;
+  width: 35vw;
   height: 16vh;
   border-bottom: 2px solid #C75C5C;
+  display: flex;
+  line-height: 22px;
 }
 
 .signature-logo{
   margin: 25px 0 0 20px;
-  display: inline-block;
+
+}
+
+.result-area{
+margin: 25px 0 0 20px;
+}
+
+.name-displayed{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.job-displayed{
+  color: #C75C5C;
+  font-weight: bold;
+}
+.bottom-half-card{
+  width: 25vw;
+  margin: 25px 0 0 105px;
+  line-height: 22px;
+}
+.phone-displayed,.email-displayed{
+  font-weight: bold;
+}
+.result-location{
+  padding-top: 5px;
+
+}
+
+.result-address,.job-location{
+ color:	#D3D3D3;
+}
+
+.company-website{
+  color:  #C75C5C;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import StepTwoTitle from './StepTwoTitle'
 import SignatureCard from './SignatureCard'
-import NameResult from './NameResult'
+
 // const { string } = React.PropTypes
 
 const StepTwo = React.createClass({
@@ -13,7 +13,7 @@ const StepTwo = React.createClass({
       <div>
         <StepTwoTitle />
         <SignatureCard />
-        <NameResult />
+
       </div>
     )
   }

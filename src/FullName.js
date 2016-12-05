@@ -12,7 +12,7 @@ const FullName = React.createClass({
         <div className='input-name'>
           Full Name
         </div>
-        <input className='user-input' type='text' defaultValue={this.props.nameValue} onChange={this.props.handleFullName} placeholder='Name' />
+        <input className='user-input' type='text' defaultValue={this.props.nameValue} onChange={this.props.handleFullName} />
       </div>
     )
   }

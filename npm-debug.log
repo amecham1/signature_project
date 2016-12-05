@@ -1,5 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'lint' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'lint',
+1 verbose cli   '--fix' ]
 2 info using npm@3.10.8
 3 info using node@v6.9.1
 4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
@@ -25,7 +29,7 @@
 15 verbose pkgid signature_project@1.0.0
 16 verbose cwd /Users/Mecham/projects/signature_project
 17 error Darwin 16.1.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "lint"
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "lint" "--fix"
 19 error node v6.9.1
 20 error npm  v3.10.8
 21 error code ELIFECYCLE
