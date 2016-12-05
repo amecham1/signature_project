@@ -7,18 +7,12 @@ import JobTitle from './JobTitle'
 import PhoneNumber from './PhoneNumber'
 import EmailAddress from './EmailAddress'
 import CheckFrontDesk from './CheckFrontDesk'
-// import StepOne from './StepOne'
-// import StepTwo from './StepTwo'
 import StepTwoTitle from './StepTwoTitle'
 import SignatureCard from './SignatureCard'
 import '../public/styles/reset.css'
 import '../public/styles/style.css'
-// const { string } = React.PropTypes
 
 const App = React.createClass({
-  // propTypes: {
-  //   checked: string
-  // },
   getInitialState () {
     return {
       nameValue: '',
@@ -26,7 +20,6 @@ const App = React.createClass({
       phoneValue: '',
       emailValue: '',
       checked: false
-
     }
   },
   handleFullName (e) {
@@ -50,7 +43,6 @@ const App = React.createClass({
     })
   },
   handleCheck (e) {
-    console.log(e.target.checked)
     this.setState({
       checked: e.target.checked
     })

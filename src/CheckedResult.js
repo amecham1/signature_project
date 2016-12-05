@@ -7,7 +7,6 @@ const CheckResult = React.createClass({
     handleCheck: func
   },
   showNumber () {
-    console.log(this.props.checked)
     if (this.props.checked === true) {
       return (
         <div>
@@ -20,7 +19,7 @@ const CheckResult = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div className='phone-displayed'>
         {this.showNumber()}
       </div>
     )
