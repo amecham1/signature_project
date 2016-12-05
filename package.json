@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/amecham1/signature_project#readme",
   "dependencies": {
-      "history": "^4.4.0",
-      "lodash": "4.16.2",
-      "react": "15.3.2",
-      "react-dom": "15.3.2",
-      "react-router": "4.0.0-alpha.5"
+    "history": "^4.4.0",
+    "lodash": "4.16.2",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-fontawesome": "^1.4.0",
+    "react-router": "4.0.0-alpha.5"
   },
   "devDependencies": {
     "babel-core": "6.16.0",

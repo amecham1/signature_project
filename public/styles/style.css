@@ -4,15 +4,92 @@
   background-image: url('./public/img/lines.png');
   font-family: Helvetica, Arial, sans-serif;
 }
-
+ input:focus {
+   outline: black 1px solid;
+ }
+ input[type=checkbox] {
+  transform: scale(1.9);
+}
+input[type=checkbox]:focus {
+  outline: none;
+}
 .header-box{
   width: 95vw;
   border-bottom: black solid 2px;
   font-size: 3em;
   margin: 0 auto 0 auto;
-  padding: 5px 0 25px 0;
+  padding: 5px 0 30px 0;
 }
 
 .container{
+  width: 95vw;
+  height: 80vh;
+  margin: 0 auto 0 auto;
+  display: flex;
+}
 
+.step-one{
+  width: 50vw;
+}
+
+.step-two{
+  width: 50vw;
+
+}
+
+.step-one-title-container{
+  padding: 20px 0 30px 0;
+  font-size: 2em;
+}
+.step-two-title-container{
+  padding: 20px 0 30px 0;
+}
+
+.input-name{
+  font-size: 1.2em;
+  padding-bottom: 6px;
+  font-weight: lighter;
+}
+
+.user-input{
+  width: 35vw;
+  padding: 12px 0 12px 5px;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.check-input{
+  margin-right: 20px;
+}
+.checkbox-title{
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-top: 5px;
+}
+.step-two-title{
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+.step-two-info{
+  font-weight: lighter;
+  font-size: 1.45em;
+  line-height:30px;
+  margin-bottom: 10px;
+}
+
+.signature-card{
+  width: 48vw;
+  height: 38vh;
+  background-color: #fff;
+  border: 2px #000000 solid;
+}
+
+.user-info{
+  width: 27vw;
+  height: 16vh;
+  border-bottom: 2px solid #C75C5C;
+}
+
+.signature-logo{
+  margin: 25px 0 0 20px;
+  display: inline-block;
 }
